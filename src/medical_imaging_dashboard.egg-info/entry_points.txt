@@ -1,0 +1,2 @@
+[console_scripts]
+medical-imaging-dashboard = medical_imaging_dashboard.cli:main

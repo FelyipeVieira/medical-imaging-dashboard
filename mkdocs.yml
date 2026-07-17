@@ -1,0 +1,16 @@
+site_name: Medical Imaging Dashboard
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Architecture: architecture.md
+  - Usage: usage.md
+  - Plugins: plugins.md
+  - Deployment: deployment.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+
